@@ -1,5 +1,7 @@
 import streamlit as st
-from frontend.styles.theme import inject, brand_sidebar, hero, metric_card
+from styles.theme import inject, brand_sidebar, hero, metric_card
+from components.auth_ui import require_auth, logout_button
+from components.api_client import api_get
 from frontend.components.auth_ui import require_auth, logout_button
 from frontend.components.api_client import api_get
 
