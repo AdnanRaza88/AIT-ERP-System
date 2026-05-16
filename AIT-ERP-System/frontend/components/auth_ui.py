@@ -1,5 +1,5 @@
 import streamlit as st
-from frontend.components.api_client import login
+from components.api_client import login
 
 
 def require_auth():
